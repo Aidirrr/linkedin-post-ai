@@ -60,7 +60,7 @@ def generate_linkedin_post(event_details, ai_creativity):
     The post should be written in a conversational yet professional tone, using first-person language (e.g., "I had the opportunity to…"). Aim for at least **150 words** to ensure the content is informative and impactful.
     """
 
-    model = genai.GenerativeModel("gemini-1.5-pro", generation_config=generation_config)
+    model = genai.GenerativeModel("gemini-1.5-flash", generation_config=generation_config)
 
     try:
         response = model.generate_content(prompt)
