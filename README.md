@@ -22,7 +22,7 @@ LinkedIn Post AI is a web application that helps university students effortlessl
 1. Clone this repository:
    
     ```bash
-    git clone https://github.com/yourusername/linkedin-post-ai.git
+    git clone https://github.com/Aidirrr/linkedin-post-ai.git
     cd linkedin-post-ai
     ```
     
