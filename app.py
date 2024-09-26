@@ -131,6 +131,8 @@ def main():
         if 'generated_post' in st.session_state:
 
             st.write(generated_post)
+            st.code(generated_post, language="text")
+
 
     # Footer for the app
     st.markdown("<hr>", unsafe_allow_html=True)
