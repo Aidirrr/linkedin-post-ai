@@ -2,6 +2,11 @@
 
 LinkedIn Post AI is a web application that helps university students effortlessly generate professional LinkedIn posts based on their event experiences. Powered by Google Generative AI, it allows users to input event details and receive a polished post ready for sharing on LinkedIn.
 
+<p align="center">
+  <img src="images/main1.png" alt="Main Page" width="45%">
+  <img src="images/main1.2.png" alt="Main Page" width="45%">
+</p>
+
 ## Features
 
 - **User-Friendly Interface**: Simple and intuitive design for easy navigation.
@@ -48,6 +53,11 @@ LinkedIn Post AI is a web application that helps university students effortlessl
     
 2. Open your web browser and go to ```http://localhost:8501```.
 3. Fill in the event details on the left column and click the **"Generate LinkedIn Post"** button. The generated post will appear on the right column.
+
+<p align="center">
+  <img src="images/example1.png" alt="Main Page" width="45%">
+  <img src="images/example1.2.png" alt="Main Page" width="45%">
+</p>
 
 ## Contributing
 
