@@ -21,6 +21,11 @@ LinkedIn Post AI is a web application that helps university students effortlessl
 - **Google Generative AI SDK**: For generating content based on user input.
 - **Python**: The primary programming language.
 - **dotenv**: For managing environment variables securely.
+- **Kaggle Notebook Environment**: Used for data cleaning and preprocessing.
+
+## Dataset and Preprocessing
+
+The dataset `job_and_skills.csv` was created through data cleaning and preprocessing using the Kaggle notebook environment. I utilized Kaggle's data manipulation tools to filter, clean, and format the raw data into a structured format that captures job positions and their associated skills. The final processed CSV file is used in this application to provide insights into job requirements and skills.
 
 ## Installation
 
@@ -31,7 +36,7 @@ LinkedIn Post AI is a web application that helps university students effortlessl
     cd linkedin-post-ai
     ```
     
-2. Create a ```.env``` file in the root directory and add your Google Generative AI API key:
+2. Create a `.env` file in the root directory and add your Google Generative AI API key:
 
     ```bash
     GEMINI_API_KEY=your_google_generative_ai_api_key
@@ -51,7 +56,7 @@ LinkedIn Post AI is a web application that helps university students effortlessl
     streamlit run app.py
     ```
     
-2. Open your web browser and go to ```http://localhost:8501```.
+2. Open your web browser and go to `http://localhost:8501`.
 3. Fill in the event details on the left column and click the **"Generate LinkedIn Post"** button. The generated post will appear on the right column.
 
 <p align="center">
@@ -65,6 +70,6 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## Acknowledgments
 
-Thanks to Google Generative AI for providing the API that powers this application.
-Inspiration from fellow developers and the open-source community.
-   
+- Thanks to Google Generative AI for providing the API that powers this application.
+- Special thanks to Kaggle for offering the environment to perform the data cleaning and preprocessing.
+- Inspiration from fellow developers and the open-source community.
